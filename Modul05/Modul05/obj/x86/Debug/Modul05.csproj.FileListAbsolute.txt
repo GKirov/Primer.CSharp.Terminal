@@ -1,0 +1,5 @@
+C:\aula\primer.csharp.terminal\Modul05\Modul05\bin\Debug\Modul05.exe
+C:\aula\primer.csharp.terminal\Modul05\Modul05\bin\Debug\Modul05.pdb
+C:\aula\primer.csharp.terminal\Modul05\Modul05\obj\x86\Debug\Modul05.csprojResolveAssemblyReference.cache
+C:\aula\primer.csharp.terminal\Modul05\Modul05\obj\x86\Debug\Modul05.exe
+C:\aula\primer.csharp.terminal\Modul05\Modul05\obj\x86\Debug\Modul05.pdb

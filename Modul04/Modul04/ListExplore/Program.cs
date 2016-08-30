@@ -22,9 +22,24 @@ namespace ListExplore
 
 
 				//Добавяне на стойности /първата ни функция/
+				//add <int>
+				if ( _userinput.ToLower().Contains ("add"))
+				{
+					try
+					{
+						int _add=0; //това е стойността въведена от потребителя
+
+						if (int.TryParse ( _userinput.Split (' ') [1], out _add))
+						{
+							_list.Add ( _add );
+						}
+
+						Console.WriteLine ();
+					}catch{}
+				}
 
 				//Преглед на List
-				if (_userinput.Contains ("show"))
+				if (_userinput.ToLower().Contains ("show"))
 				{
 					Console.Write ( " _list: ");
 
@@ -35,12 +50,15 @@ namespace ListExplore
 						if ( i != _list.Count - 1) Console.Write ( ", " );
 					}
 
-					Console.WriteLine ();
+					Console.WriteLine ("\n");
 				}
 
 
 				//Размер на List
-
+				if ( _userinput.ToLower().Contains ( "size"))
+				{
+					Console.WriteLine ("Размер на списъка: " + _list.Count.ToString () + "\n");
+				}
 
 
 			} while (_userinput != "exit");
